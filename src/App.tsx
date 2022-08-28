@@ -1,10 +1,11 @@
 import React from "react";
-import { Intro } from "./components";
+import { Intro, Projects } from "./components";
 
 function App() {
   return (
     <div>
       <Intro />
+      <Projects />
     </div>
   );
 }
