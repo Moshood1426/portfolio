@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;800&display=swap");
 
 html {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 } /*16px*/
 
 @media (min-width: 450px) {
@@ -45,7 +45,7 @@ html {
   --backgroundColor: #252528;
 
   /* rest of the vars */
-  --bodyFont: "Gentium Book Plus", Sans-Serif;
+  --bodyFont: "Inter", Sans-Serif;
   --textColor: var(--white);
   --borderRadius: 0.25rem;
   --letterSpacing: 1px;

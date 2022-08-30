@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="projects-container">
         <div className="projects-intro">
           <span className="projects-intro-subtitle">LATEST PROJECTS</span>
-          <h2 className="projects-intro-title">I've Worked On</h2>
+          <h3 className="projects-intro-title">I've Worked On</h3>
           <p>
             Lorem ipsum is placeholder text commonly used in the graphic, print,
             and publishing industriesLorem ipsum is placeholder text commonly
