@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.section`
   position: relative;
+  margin-bottom: 4em;
 
   .projects-container {
     width: 90%;
