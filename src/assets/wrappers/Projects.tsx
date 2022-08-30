@@ -10,23 +10,29 @@ const Wrapper = styled.section`
     margin: 0 auto;
   }
   .projects-intro-subtitle {
-    font-size: .9rem;
+    font-size: 0.9rem;
     margin: 0;
   }
 
   .projects-intro-title {
     color: var(--primary-green);
-    border-top: var(--primary-green) solid 2px;
-    border-bottom: var(--primary-green) solid 2px;
+    border-top: #4c5e4f solid 2px;
+    border-bottom: #4c5e4f solid 2px;
   }
 
   .view-more {
     grid-column: 1/-1;
     max-width: 100%;
     width: fit-content;
-    padding: .6em 2.35em;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 0.6em 2.35em;
     border: var(--primary-green) solid 2px;
-    place-self: center;
+    place-self: center center;
+  }
+
+  .view-more:hover {
+    background-color: var(--primary-300);
   }
 
   @media (min-width: 750px) {

@@ -1,19 +1,21 @@
 import styled from "styled-components";
 
 const Wrapper = styled.section`
-  background-color: rgba(58, 58, 61, .65);
+  background-color: #212123;
   padding: 2em 2em;
   margin-bottom: 1em;
 
   .article-date {
-    font-size: .65rem;
+    font-size: 0.65rem;
     margin: 0;
+    color: rgba(165, 159, 159, 0.73);
   }
 
   .article-category {
     margin: 0;
     text-transform: uppercase;
-    font-size: .85rem;
+    font-size: 0.85rem;
+    font-weight: 300;
   }
 
   .article-title {
@@ -23,7 +25,8 @@ const Wrapper = styled.section`
   }
 
   .article-time {
-    font-size: .75em;
+    font-size: 0.75em;
+    color: rgba(165, 159, 159, 0.73);
   }
 `;
 export default Wrapper;

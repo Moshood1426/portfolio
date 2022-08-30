@@ -24,7 +24,7 @@ const Wrapper = styled.section`
 
   ::after {
     content: "";
-    background-color: var(--primary-200);
+    background-color: #272729;
     height: 300px;
     width: 300px;
     position: absolute;
@@ -39,7 +39,7 @@ const Wrapper = styled.section`
     position: relative;
     width: 90%;
     margin: 3em auto;
-    background-color: rgba(50, 50, 54, 0.65);
+    background-color: rgba(37, 37, 40, .65);
     z-index: 1;
     height: 75vh;
     display: flex;

@@ -5,12 +5,19 @@ const Wrapper = styled.section`
   .aboutme-container {
     width: 75%;
     margin: 0 auto;
+    max-width: 625px;
   }
 
   .aboutme-title {
     color: var(--primary-green);
-    border-top: var(--primary-green) solid 2px;
-    border-bottom: var(--primary-green) solid 2px;
+    border-top: #4C5E4F solid 2px;
+    border-bottom: #4C5E4F solid 2px;
+  }
+
+  @media (min-width: 850px) {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    place-self: center;
   }
 `;
 export default Wrapper;

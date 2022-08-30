@@ -1,19 +1,26 @@
 import styled from "styled-components";
 
 const Wrapper = styled.section`
-  background-color: rgba(50, 50, 54, 1);
-  padding: 3.5em 0;
+  background-color: var(--primary-300);
+  padding: 3em 0;
+
   .articles-container {
     width: 90%;
-    max-width: 1250px;
+    max-width: 625px;
     margin: 0 auto;
   }
 
   .articles-title {
     color: var(--primary-green);
-    border-top: var(--primary-green) solid 2px;
-    border-bottom: var(--primary-green) solid 2px;
+    border-top: #4C5E4F solid 2px;
+    border-bottom: #4C5E4F solid 2px;
     text-align: center;
+  }
+
+  @media (min-width: 850px) {
+    grid-row: 1/3;
+    grid-column: 2/3;
+    padding-bottom: 0;
   }
 `;
 export default Wrapper;
