@@ -1,15 +1,23 @@
-import React from 'react'
-import { projects } from '../utils/project-actions'
-import SingleProjects from './SingleProjects'
+import React from "react";
+import { projects } from "../utils/project-actions";
+import SingleProjects from "./SingleProjects";
 
-const AllProjects = () => {
-  return (
-    <>
-      {projects.map(item => {
-        return <SingleProjects {...item}/>
-      })}
-    </>
-  )
+interface AllProjectInterface {
+  viewAll: boolean;
 }
 
-export default AllProjects
+const AllProjects: React.FC<AllProjectInterface> = ({ viewAll }) => {
+  return (
+    <>
+      {projects.map((item, index) => {
+        return viewAll ? (
+          <SingleProjects {...item} />
+        ) : (
+          index < 3 && <SingleProjects {...item} />
+        );
+      })}
+    </>
+  );
+};
+
+export default AllProjects;

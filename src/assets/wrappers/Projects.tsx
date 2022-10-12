@@ -38,13 +38,17 @@ const Wrapper = styled.section`
   @media (min-width: 750px) {
     .projects-container {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-column-gap: 1em;
     }
 
     .projects-intro {
       place-self: center left;
       max-width: 95%;
+    }
+
+    .span-two {
+      grid-column: 1/3;
     }
   }
 `;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Wrapper = styled.section`
-  height: 90vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   position: relative;
@@ -39,12 +39,13 @@ const Wrapper = styled.section`
     position: relative;
     width: 90%;
     margin: 3em auto;
-    background-color: rgba(37, 37, 40, .65);
+    background-color: rgba(37, 37, 40, 0.65);
     z-index: 1;
-    height: 75vh;
+    min-height: 75vh;
     display: flex;
     align-items: center;
     padding: 2em;
+    padding-top: 3.5em;
     box-shadow: var(--shadow-1);
     border-radius: 10px;
   }
@@ -82,7 +83,7 @@ const Wrapper = styled.section`
     border-left: var(--white) solid 3px;
     margin-bottom: 0.85em;
     padding: 0.5em 1.2em;
-    background-color: var(--primary-200);
+    background-color: var(--primary-300);
     width: fit-content;
   }
 
