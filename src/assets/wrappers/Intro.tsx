@@ -80,6 +80,7 @@ const Wrapper = styled.section`
     color: var(--primary-green);
     position: relative;
     align-self: flex-end;
+    border: solid 1px var(--primary-200);
     border-left: var(--white) solid 3px;
     margin-bottom: 0.85em;
     padding: 0.5em 1.2em;
@@ -105,7 +106,7 @@ const Wrapper = styled.section`
       border-left: none;
       border-bottom: var(--white) solid 4px;
       margin-bottom: 0.85em;
-      background-color: var(--primary-200);
+      background-color: var(--primary-300);
       width: fit-content;
     }
   }
