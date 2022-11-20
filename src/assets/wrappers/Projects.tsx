@@ -20,6 +20,11 @@ const Wrapper = styled.section`
     border-bottom: #4c5e4f solid 2px;
   }
 
+  .projects-intro-details {
+    color: var(--grey-100);
+    text-align: justify;
+  }
+
   .view-more {
     grid-column: 1/-1;
     max-width: 100%;

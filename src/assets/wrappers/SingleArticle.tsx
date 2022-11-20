@@ -5,6 +5,14 @@ const Wrapper = styled.section`
   padding: 2em 2em;
   margin-bottom: 1em;
 
+  :hover {
+    cursor: pointer;
+
+    .article-title {
+      color: var(--primary-green);
+    }
+  }
+
   .article-date {
     font-size: 0.65rem;
     margin: 0;
@@ -14,14 +22,15 @@ const Wrapper = styled.section`
   .article-category {
     margin: 0;
     text-transform: uppercase;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-weight: 300;
+    color: var(--grey-200);
   }
 
   .article-title {
     margin: 0;
     margin-top: 2.5em;
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
 
   .article-time {

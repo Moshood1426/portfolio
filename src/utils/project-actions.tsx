@@ -7,63 +7,86 @@ interface Project {
   details: string;
 }
 
-const projects: Project[]= [
+const projects: Project[] = [
   {
-    title: "Project Name",
-    gitPage: "",
-    livePage: "",
-    stack: ["react", "nodejs", "express", "mongoDB"],
+    title: "Quizzal",
+    gitPage: "https://github.com/Moshood1426/Quiz-App",
+    livePage: "https://quizzal.onrender.com/",
+    stack: [
+      "react",
+      "nodejs",
+      "express",
+      "mongoDB",
+      "typescript",
+      "sendgrid",
+      "docker",
+      "AWS ECS",
+    ],
     spanTwo: "3 / 5",
-    details:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
+    details: `
+      Quizzal is a service that allows tutors quiz their
+      students easily, comfortably receive students answers,
+      and return results as feedback
+    `,
   },
   {
-    title: "Project Name",
-    gitPage: "",
-    livePage: "",
-    stack: ["react", "nodejs", "express", "mongoDB"],
+    title: "Lorem Gym",
+    livePage: "https://lorem-gym.herokuapp.com/",
+    gitPage: "https://github.com/Moshood1426/Lorem-Gym-App",
+    stack: [
+      "EJS",
+      "SCSS",
+      "nodejs",
+      "expressJS",
+      "MYSQL",
+      "sequelize",
+      "heroku",
+    ],
     spanTwo: "1 / 3",
-    details:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
+    details: `
+      Lorem gym app provides a comfortable means of managing 
+      gym memberships and receiving new clients
+    `,
   },
   {
-    title: "Project Name",
-    gitPage: "",
-    livePage: "",
-    stack: ["react", "nodejs", "express", "mongoDB"],
+    title: "E-Commerce API",
+    gitPage: "https://github.com/Moshood1426/E-COMMERCE-API",
+    livePage: "http://e-commerc-api.herokuapp.com/",
+    stack: ["typescript", "nodejs", "express", "mongoDB", "stripeJS", "docgen"],
     spanTwo: "3 / 5",
-    details:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
+    details: `
+        A backend REST API project for a fully functional 
+        E-COMMERCE Website with endpoints documented with docgen`,
   },
   {
-    title: "Project Name",
-    gitPage: "",
-    livePage: "",
-    stack: ["react", "nodejs", "express", "mongoDB"],
+    title: "Jobtify",
+    gitPage: "https://github.com/Moshood1426/Jobtify",
+    livePage: "https://jobtify.onrender.com",
+    stack: [
+      "react",
+      "typescript",
+      "GSAP",
+      "nodejs",
+      "express",
+      "mongoDB",
+      "cloudinary",
+    ],
     details:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
+      "A fullstack MERN app that allows users effectively keep track of their job application",
   },
   {
-    title: "Project Name",
+    title: "ProjMgt",
     gitPage: "",
     livePage: "",
-    stack: ["react", "nodejs", "express", "mongoDB"],
-    details:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
-  },
-  {
-    title: "Project Name",
-    gitPage: "",
-    livePage: "",
-    stack: ["react", "nodejs", "express", "mongoDB"],
-    details:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
-  },
-  {
-    title: "Project Name",
-    gitPage: "",
-    livePage: "",
-    stack: ["react", "nodejs", "express", "mongoDB"],
+    stack: [
+      "react",
+      "redux",
+      "typescript",
+      "graphQL",
+      "nodejs",
+      "express",
+      "mongoDB",
+    ],
     details:
       "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
   },

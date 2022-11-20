@@ -28,14 +28,15 @@ const Wrapper = styled.section`
 
   .form-input {
     width: 100%;
-    padding: 0.375rem 0.75rem;
+    padding: 0.5rem 0.75rem;
     border-radius: var(--borderRadius);
-    border: 1px solid #4C5E4F;
+    border: 1px solid #4c5e4f;
     height: 50px;
     font-size: 1rem;
     background-color: #212123;
     position: relative;
     z-index: 1;
+    color: white;
   }
 
   .text-area {

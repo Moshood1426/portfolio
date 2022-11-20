@@ -8,8 +8,8 @@ const Articles = () => {
     <Wrapper>
       <div className="articles-container">
         <h3 className="articles-title">Articles</h3>
-        {articles.map((item) => (
-          <SingleArticle {...item} />
+        {articles.map((item, index) => (
+          <SingleArticle {...item} key={index} />
         ))}
       </div>
     </Wrapper>
