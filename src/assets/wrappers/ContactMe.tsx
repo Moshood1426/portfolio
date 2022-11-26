@@ -50,11 +50,16 @@ const Wrapper = styled.section`
     background-color: var(--primary-green);
     position: relative;
     z-index: 1;
+    transition: var(--transition);
+  }
+
+  .submit-btn:hover {
+    background-color: var(--grey-600);
   }
 
   ::after {
     content: "";
-    background-color: var(--primary-200);
+    background-color: #212123;
     height: 300px;
     width: 300px;
     position: absolute;

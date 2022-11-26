@@ -1,20 +1,20 @@
 const articles = [
   {
-    category: "front-end development",
+    category: "work",
     date: "12th June, 2022",
-    title: "My journey as a software developer",
+    title: "The Quizzal App",
     time: "20mins read",
   },
   {
-    category: "front-end development",
+    category: "personal",
     date: "12th June, 2022",
-    title: "My journey as a software developer",
+    title: "What is it like to be me",
     time: "20mins read",
   },
   {
-    category: "front-end development",
+    category: "personal",
     date: "12th June, 2022",
-    title: "My journey as a software developer",
+    title: "Architecture to Software Dev",
     time: "20mins read",
   },
 ];

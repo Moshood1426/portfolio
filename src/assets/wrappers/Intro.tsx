@@ -24,7 +24,7 @@ const Wrapper = styled.section`
 
   ::after {
     content: "";
-    background-color: #272729;
+    background-color: var(--primary-300);
     height: 300px;
     width: 300px;
     position: absolute;
@@ -77,7 +77,7 @@ const Wrapper = styled.section`
   }
 
   .nav-item {
-    color: var(--primary-green);
+    color: #9f9c9c;
     position: relative;
     align-self: flex-end;
     border: solid 1px var(--primary-200);
@@ -86,6 +86,13 @@ const Wrapper = styled.section`
     padding: 0.5em 1.2em;
     background-color: var(--primary-300);
     width: fit-content;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: .875rem;
+  }
+
+  .nav-item:hover {
+    background-color: var(--grey-700);
   }
 
   .intro-details {

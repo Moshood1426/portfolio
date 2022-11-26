@@ -8,6 +8,7 @@
 
 html {
   font-size: 0.9rem;
+  scroll-behavior: smooth;
 } /*16px*/
 
 @media (min-width: 450px) {

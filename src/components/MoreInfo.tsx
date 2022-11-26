@@ -10,9 +10,9 @@ const MoreInfo = () => {
           Lorem ipsum is placeholder text commonly used in the graphic, print,
           and publishing{" "}
         </p>
-        <p>+2347052064694</p>
-        <p>moshood.yemi10@gmail.com</p>
-        <p>@harbdoul1</p>
+        <p>📞 +234 (0) 7052064694</p>
+        <p>📧 moshood.yemi10@gmail.com</p>
+        <p>🐤 @harbdoul1</p>
       </div>
     </Wrapper>
   );

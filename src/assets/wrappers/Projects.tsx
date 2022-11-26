@@ -22,7 +22,7 @@ const Wrapper = styled.section`
 
   .projects-intro-details {
     color: var(--grey-100);
-    text-align: justify;
+   // text-align: justify;
   }
 
   .view-more {

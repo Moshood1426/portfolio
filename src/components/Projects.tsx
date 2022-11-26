@@ -6,17 +6,13 @@ const Projects = () => {
   // const [viewAll, setViewAll] = useState(false);
   return (
     <Wrapper>
-      <div className="projects-container">
+      <div className="projects-container" id="projects">
         <div className="projects-intro span-two">
           <span className="projects-intro-subtitle">LATEST PROJECTS</span>
           <h3 className="projects-intro-title">I've Worked On</h3>
           <p className="projects-intro-details">
-            On these projects, I've displayed how well versed i am with
-            technologies like REACT + TS, CSS, SCSS, REDUX, Templating
-            Engines(EJS, Handlebar) for frontend development: NODEJS, EXPRESSJS,
-            TYPESCRIPT, MYSQL,POSTGRESQL, MONGODB, ORM(mongoose, sequelize) for
-            backend development and AWS, Heroku, Render and Vercel for
-            deployment
+            On these projects, I've displayed my flexibility with modern
+            technologies and my ability to implement logic.
           </p>
         </div>
         <AllProjects />

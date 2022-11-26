@@ -23,7 +23,7 @@ const ContactMe = () => {
   };
   return (
     <Wrapper>
-      <div className="contact-container">
+      <div className="contact-container" id="contact_me">
         <span className="contact-subtitle">contact me</span>
         <h4 className="contact-title">
           GET IN TOUCH WITH ME, I'LL REPLY AS SOON AS POSSIBLE
