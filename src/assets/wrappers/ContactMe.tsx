@@ -54,7 +54,7 @@ const Wrapper = styled.section`
   }
 
   .submit-btn:hover {
-    background-color: var(--grey-600);
+    opacity: 0.7;
   }
 
   ::after {
@@ -77,6 +77,22 @@ const Wrapper = styled.section`
       height: 450px;
       width: 450px;
     }
+  }
+
+  .alert {
+    text-align: center;
+    width: 100%;
+    padding: 0.475rem 0.75rem;
+  }
+
+  .alert-danger {
+    color: var(--red-dark);
+    background: var(--red-light);
+  }
+
+  .alert-success {
+    color: var(--green-dark);
+    background: var(--green-light);
   }
 `;
 export default Wrapper;

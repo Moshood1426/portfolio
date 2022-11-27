@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/the-quizzal-project" element={<Quizzal />} />
+        <Route path="/the-quizzal-app" element={<Quizzal />} />
         <Route path="/what-is-it-like-to-be-me" element={<WhatMe />} />
         <Route
           path="/architecture-to-software-dev"

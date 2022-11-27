@@ -88,7 +88,7 @@ const projects: Project[] = [
       "mongoDB",
     ],
     details:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
+      "The app allows users keep track of their ongoing projects and manage projects activities. It also aids keeping client records.",
   },
 ];
 

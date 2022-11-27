@@ -89,6 +89,7 @@ const Wrapper = styled.section`
     cursor: pointer;
     transition: var(--transition);
     font-size: .875rem;
+    display: block;
   }
 
   .nav-item:hover {

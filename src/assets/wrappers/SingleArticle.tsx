@@ -37,5 +37,10 @@ const Wrapper = styled.section`
     font-size: 0.75em;
     color: rgba(165, 159, 159, 0.73);
   }
+
+  a:-webkit-any-link {
+    color: var(--white);
+    cursor: pointer;
+}
 `;
 export default Wrapper;
