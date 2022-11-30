@@ -9,7 +9,7 @@ const Wrapper = styled.section`
     cursor: pointer;
 
     .article-title {
-      color: var(--primary-green);
+      color: var(--green-light);
     }
   }
 

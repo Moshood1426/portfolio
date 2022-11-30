@@ -5,6 +5,7 @@ const articles = [
     title: "The Quizzal App",
     time: "20mins read",
     link: "the-quizzal-app",
+    published: true,
   },
   {
     category: "personal",
@@ -12,6 +13,7 @@ const articles = [
     title: "What is it like to be me",
     time: "20mins read",
     link: "what-is-it-like-to-be-me",
+    published: false,
   },
   {
     category: "personal",
@@ -19,6 +21,7 @@ const articles = [
     title: "Architecture to Software Dev",
     time: "20mins read",
     link: "architecture-to-software-dev",
+    published: false,
   },
 ];
 
