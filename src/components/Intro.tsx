@@ -18,9 +18,9 @@ const Intro = () => {
           </h1>
           <p className="intro-details">
             I'm well-versed in databases, server configuration and user
-            interface to implementing a seamless user experience through my
-            diverse familiarity with modern technologies. I'm inclusively a
-            fitness enthuthiast 💪 and I box 🥊 at leisure.
+            interface and I constructively implement seamless user experience
+            through my diverse familiarity with modern technologies. I'm
+            inclusively a fitness enthuthiast 💪 and I box 🥊 at leisure.
           </p>
           <ul className="intro-actions">
             <a className="nav-item" href="#projects">

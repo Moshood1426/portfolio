@@ -51,7 +51,7 @@ const projects: Project[] = [
   {
     title: "E-Commerce API",
     gitPage: "https://github.com/Moshood1426/E-COMMERCE-API",
-    livePage: "http://e-commerc-api.herokuapp.com/",
+    livePage: "https://e-commerce-api-ttap.onrender.com",
     stack: ["typescript", "nodejs", "express", "mongoDB", "stripeJS", "docgen"],
     spanTwo: "3 / 5",
     details: `
