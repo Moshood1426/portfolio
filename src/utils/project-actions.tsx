@@ -24,14 +24,14 @@ const projects: Project[] = [
     ],
     spanTwo: "3 / 5",
     details: `
-      Quizzal is a service that allows tutors quiz their
-      students easily, comfortably receive students answers,
+      Quizzal is a fullstack service that allows tutors set quiz for their
+      students, comfortably receive students answers after submission,
       and return results as feedback
     `,
   },
   {
     title: "Lorem Gym",
-    livePage: "https://lorem-gym.herokuapp.com/",
+    livePage: "https://lorem-gym.onrender.com",
     gitPage: "https://github.com/Moshood1426/Lorem-Gym-App",
     stack: [
       "EJS",
