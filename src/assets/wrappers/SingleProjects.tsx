@@ -29,13 +29,13 @@ const Wrapper = styled.section`
   .single-project-stack {
     font-size: 0.85rem;
     text-transform: capitalize;
-    color: var(--primary-green);
+    color: var(--grey-400);
   }
 
   .single-project-details {
     margin-top: 2em;
     margin-bottom: 3em;
-    color: #d9d9d9ba;
+    color: #a4a4a4b8;
     font-size: var(--extra-small-text);
   }
 

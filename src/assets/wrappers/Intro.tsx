@@ -67,6 +67,10 @@ const Wrapper = styled.section`
 
   .intro-content-container {
     width: 90%;
+
+    p {
+      margin: 0;
+    }
   }
 
   .title {
@@ -88,7 +92,7 @@ const Wrapper = styled.section`
     width: fit-content;
     cursor: pointer;
     transition: var(--transition);
-    font-size: .875rem;
+    font-size: 0.875rem;
     display: block;
   }
 

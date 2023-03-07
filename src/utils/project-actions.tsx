@@ -9,6 +9,27 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Eventos",
+    livePage: "https://lorem-gym.onrender.com",
+    gitPage: "https://github.com/Moshood1426/Lorem-Gym-App",
+    stack: [
+      "react",
+      "redux",
+      "SCSS",
+      "GSAP",
+      "nestJS",
+      "postgreSQL",
+      "typeorm",
+      "jest",
+    ],
+    spanTwo: "1 / 3",
+    details: `
+      A fullstack real time event app for selling and buying event ticket. 
+      Users can create events and put it out for sale while others can purchase 
+      tickets.
+    `,
+  },
+  {
     title: "Quizzal",
     gitPage: "https://github.com/Moshood1426/Quiz-App",
     livePage: "https://quizzal.onrender.com/",
@@ -49,16 +70,6 @@ const projects: Project[] = [
     `,
   },
   {
-    title: "E-Commerce API",
-    gitPage: "https://github.com/Moshood1426/E-COMMERCE-API",
-    livePage: "https://e-commerce-api-ttap.onrender.com",
-    stack: ["typescript", "nodejs", "express", "mongoDB", "stripeJS", "docgen"],
-    spanTwo: "3 / 5",
-    details: `
-        A backend REST API project for a fully functional 
-        E-COMMERCE Website with endpoints documented with docgen`,
-  },
-  {
     title: "Jobtify",
     gitPage: "https://github.com/Moshood1426/Jobtify",
     livePage: "https://jobtify.onrender.com",
@@ -73,6 +84,16 @@ const projects: Project[] = [
     ],
     details:
       "A fullstack MERN app that allows users effectively keep track of their job application",
+  },
+  {
+    title: "E-Commerce API",
+    gitPage: "https://github.com/Moshood1426/E-COMMERCE-API",
+    livePage: "https://e-commerce-api-ttap.onrender.com",
+    stack: ["typescript", "nodejs", "express", "mongoDB", "stripeJS", "docgen"],
+    spanTwo: "3 / 5",
+    details: `
+        A backend REST API project for a fully functional 
+        E-COMMERCE Website with endpoints documented with docgen`,
   },
   {
     title: "ProjMgt",

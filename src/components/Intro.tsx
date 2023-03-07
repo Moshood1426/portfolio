@@ -12,15 +12,13 @@ const Intro = () => {
           <img src={introImg} alt="coding-img" className="intro-img" />
         </div>
         <div className="intro-content-container">
-          <span className="sub-title">Hello😊! I'm Moshood Abdullahi👋</span>
+          <p className="sub-title">Hello👋 I'm Moshood Abdullahi😊</p>
           <h1>
-            I'm a <span className="title">Software Developer</span>
+            I'm a <span className="title">Software Developer...</span>
           </h1>
           <p className="intro-details">
-            I'm well-versed in databases, server configuration and user
-            interface and I constructively implement seamless user experience
-            through my diverse familiarity with modern technologies. I'm
-            inclusively a fitness enthuthiast 💪 and I box 🥊 at leisure.
+            who's well-versed in databases, server configuration and user
+            interface.
           </p>
           <ul className="intro-actions">
             <a className="nav-item" href="#projects">
@@ -28,9 +26,11 @@ const Intro = () => {
             </a>
             <a
               className="nav-item"
-              href={resume}
+              href={
+                "https://drive.google.com/file/d/14OnJpN_h1cWNu9j9MlwSoKMNinpTcTII/view?usp=sharing"
+              }
               target="_blank"
-              download
+              // download
               rel="noreferrer"
             >
               Resume

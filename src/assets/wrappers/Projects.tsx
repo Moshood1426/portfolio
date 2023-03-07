@@ -4,11 +4,21 @@ const Wrapper = styled.section`
   position: relative;
   margin-bottom: 4em;
 
-  .projects-container {
+  .projects-container,
+  .project-header {
     width: 90%;
     max-width: 1250px;
     margin: 0 auto;
   }
+
+  .project-header {
+    width: 90%;
+    max-width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3em;
+  }
+
   .projects-intro-subtitle {
     font-size: 0.9rem;
     margin: 0;
@@ -16,13 +26,14 @@ const Wrapper = styled.section`
 
   .projects-intro-title {
     color: var(--primary-green);
-    border-top: #4c5e4f solid 2px;
-    border-bottom: #4c5e4f solid 2px;
+    border-top: #4c5e4f solid 1px;
+    border-bottom: #4c5e4f solid 1px;
+    font-size: 2.25rem;
   }
 
   .projects-intro-details {
     color: var(--grey-100);
-   // text-align: justify;
+    // text-align: justify;
   }
 
   .view-more {
