@@ -27,7 +27,7 @@ const Intro = () => {
             <a
               className="nav-item"
               href={
-                "https://drive.google.com/file/d/14OnJpN_h1cWNu9j9MlwSoKMNinpTcTII/view?usp=sharing"
+                "https://drive.google.com/file/d/1XDX4SIkxXZuH-nS5bF2tIZsb75g6fR67/view?usp=sharing"
               }
               target="_blank"
               // download
