@@ -10,7 +10,7 @@ interface Project {
 const projects: Project[] = [
   {
     title: "Eventos",
-    livePage: "https://lorem-gym.onrender.com",
+    livePage: "https://eventos-ndos.onrender.com",
     gitPage: "https://github.com/Moshood1426/Lorem-Gym-App",
     stack: [
       "react",
@@ -32,7 +32,7 @@ const projects: Project[] = [
   {
     title: "Quizzal",
     gitPage: "https://github.com/Moshood1426/Quiz-App",
-    livePage: "https://quizzal.onrender.com/",
+    livePage: "https://quizzal-e5c7.onrender.com/",
     stack: [
       "react",
       "nodejs",
@@ -52,7 +52,7 @@ const projects: Project[] = [
   },
   {
     title: "Lorem Gym",
-    livePage: "https://lorem-gym.onrender.com",
+    livePage: "https://lorem-gym-v76y.onrender.com",
     gitPage: "https://github.com/Moshood1426/Lorem-Gym-App",
     stack: [
       "EJS",
