@@ -70,6 +70,16 @@ const projects: Project[] = [
     `,
   },
   {
+    title: "E-Commerce API",
+    gitPage: "https://github.com/Moshood1426/E-COMMERCE-API",
+    livePage: "https://e-commerce-api-gules.vercel.app/",
+    stack: ["typescript", "nodejs", "express", "mongoDB", "stripeJS", "docgen"],
+    spanTwo: "3 / 5",
+    details: `
+        A backend REST API project for a fully functional 
+        E-COMMERCE Website with endpoints documented with docgen`,
+  },
+  {
     title: "Jobtify",
     gitPage: "https://github.com/Moshood1426/Jobtify",
     livePage: "https://jobtify.onrender.com",
@@ -84,16 +94,6 @@ const projects: Project[] = [
     ],
     details:
       "A fullstack MERN app that allows users effectively keep track of their job application",
-  },
-  {
-    title: "E-Commerce API",
-    gitPage: "https://github.com/Moshood1426/E-COMMERCE-API",
-    livePage: "https://e-commerce-api-ttap.onrender.com",
-    stack: ["typescript", "nodejs", "express", "mongoDB", "stripeJS", "docgen"],
-    spanTwo: "3 / 5",
-    details: `
-        A backend REST API project for a fully functional 
-        E-COMMERCE Website with endpoints documented with docgen`,
   },
   {
     title: "ProjMgt",
