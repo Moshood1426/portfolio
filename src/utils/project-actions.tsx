@@ -11,7 +11,7 @@ const projects: Project[] = [
   {
     title: "Eventos",
     livePage: "https://eventos-ndos.onrender.com",
-    gitPage: "https://github.com/Moshood1426/Lorem-Gym-App",
+    gitPage: "https://github.com/Moshood1426/eventos",
     stack: [
       "react",
       "redux",
@@ -97,7 +97,7 @@ const projects: Project[] = [
   },
   {
     title: "ProjMgt",
-    gitPage: "",
+    gitPage: "https://github.com/Moshood1426/ProjMgt",
     livePage: "",
     stack: [
       "react",
